@@ -1,0 +1,22 @@
+{
+  "name": "e-tsumugi",
+  "version": "1.0.0",
+  "description": "A WordPress theme for illustrators or comic artists.",
+  "author": "Yusuke Takahashi <youthkee@gmail.com>",
+  "homepage": "http://littlebirdjp.github.io/e-tsumugi/",
+  "license": "GPL-2.0",
+  "main": "index.php",
+  "scripts": {
+    "postinstall": "",
+    "bwupdate": "bash bin/bootstrap.sh",
+    "build": "bash bin/zip.sh",
+    "css-compile": "node-sass --output-style expanded --indent-type tab --indent-width 1 --precision 10 sass/style.scss style.css && node-sass --output-style expanded --indent-type tab --indent-width 1 --precision 10 sass/editor-style.scss editor-style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}

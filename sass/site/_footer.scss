@@ -1,0 +1,17 @@
+.site-footer {
+  // padding-bottom: 1rem;
+  a {
+  	// color: $body-color;
+    &:visited {
+      color: $body-color;
+    }
+  	&:hover {
+  		color: $gray-light;
+  	}
+  }
+}
+
+// .site-info {
+//   font-size: $font-size-xs;
+//   text-align: center;
+// }
